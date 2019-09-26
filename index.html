@@ -1,1 +1,25 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Vanilla js - performance app</title>
+    <link rel="stylesheet" href="public/main.css">
+</head>
+<body>
+    <h1 class="heading">Vanilla.js APP (JavaScript)</h1>
+    <div class="actions-buttons">
+        <button class="btn action-btn" type='button' id='run'>Create 500 rows</button>
+        <button class="btn action-btn" type='button' id='runlots'>Create 5000 rows</button>
+        <button class="btn action-btn" type='button' id='runhuge'>Create 10000 rows</button>
+        <button class="btn action-btn" type='button' id='add'>Append 1000 rows</button>
+        <button class="btn action-btn" type='button' id='update'>Update every 10th row</button>
+        <button class="btn action-btn" type='button' id='clear'>Clear</button>
+        <button class="btn action-btn" type='button' id='swaprows'>Swap Rows</button>
+    </div>
+    <table class="data-table">
+        <tbody id="tbody">
+        </tbody>
+    </table>
+<script src='dist/main.js'></script>
+</body>
+</html>
